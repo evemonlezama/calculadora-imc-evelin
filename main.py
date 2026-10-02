@@ -1,6 +1,5 @@
-from nicegui import ui
 import os
-
+from nicegui import ui
 # ---------------------------------------------
 # CALCULADORA DE INDICE DE MASA CORPORAL (IMC)
 # Proyecto: Calculadora_yazz
