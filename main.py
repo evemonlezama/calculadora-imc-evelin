@@ -1,5 +1,6 @@
-import os
 from nicegui import ui
+import os
+
 # ---------------------------------------------
 # CALCULADORA DE INDICE DE MASA CORPORAL (IMC)
 # Proyecto: Calculadora_yazz
@@ -99,3 +100,4 @@ with ui.column().classes('w-full h-screen items-center justify-center'):
 ui.run(
     host='0.0.0.0',
     port=int(os.environ.get('PORT', 8080))
+)
